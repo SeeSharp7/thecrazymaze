@@ -9,5 +9,6 @@ namespace TheCrazyMaze
     public interface IGame
     {
         IPlayer[] Players { get; set; }
+        IMap Map { get; set; }
     }
 }

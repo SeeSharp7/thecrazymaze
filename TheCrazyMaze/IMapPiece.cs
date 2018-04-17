@@ -1,13 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using TheCrazyMaze.Enumerations;
 
 namespace TheCrazyMaze
 {
     public interface IMapPiece
     {
+        MapPieceType MapPieceType { get; }
 
+        Orientation Orientation { get; }
     }
 }

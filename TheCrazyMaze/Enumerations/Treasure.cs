@@ -1,11 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace TheCrazyMaze.Enumerations
+﻿namespace TheCrazyMaze.Enumerations
 {
+    /// <summary>
+    /// 
+    /// </summary>
     public enum Treasure
     {
         Keys,
@@ -13,7 +10,31 @@ namespace TheCrazyMaze.Enumerations
         Ghost,
         Lizard,
         GreenEmerald,
-        Armour,
-
+        Armour
+        /*
+        Drache
+        Fee
+        Karte
+        Fledermaus
+        Ring
+        Spinne
+        Geist
+        Buch
+        Krone
+        Maus
+        Trollschwein
+        SiebenarmigerLeuchter
+        Rüstung
+        Schwert
+        Totenkopf
+        Motte
+        Schlüssel
+        Smaragd
+        Eule
+        Schatzkiste
+        Eidechse
+        Scarabeus
+        Münzen
+        */
     }
 }

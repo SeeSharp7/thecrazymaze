@@ -1,9 +1,6 @@
 # The Crazy Maze
-## My architectural playground
-
 ## Intro
-The crazy maze (German: "Das verrückte Labyrinth") is a parlor game for the whole family. 
-Because of the simple ruleset and clear logic it's a great way to make some experiments with different archtectures based on this game.
+The crazy maze (German: "Das verrückte Labyrinth") is a parlor game for the whole family. Because of the simple ruleset and clear logic it's a great way to make some experiments with different archtectures based on this game.
 
 ## Rules
 As every game, the crazy maze has also some simple rules. 
@@ -16,5 +13,4 @@ As every game, the crazy maze has also some simple rules.
 ### Game rules
 - Each player gets the same amount of hidden treasure-cards at the beginning of the game
 - There are fixed ways and ways where the player can move
-- 16 fixed fields
-- 4 starting points for each color in every corner
+- 
