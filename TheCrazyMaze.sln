@@ -10,6 +10,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		readme.md = readme.md
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheCrazyMaze.UnitTests", "TheCrazyMaze.UnitTests\TheCrazyMaze.UnitTests.csproj", "{B91419BA-076B-4B22-B5BB-4A43530566C7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B9863056-4678-4A57-B6C3-07DB8574EEE7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{CB972F43-7220-4FBF-9655-B6CBF3231921}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,9 +26,17 @@ Global
 		{57E77665-0E9A-4A1D-A679-737F0B82BF45}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{57E77665-0E9A-4A1D-A679-737F0B82BF45}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{57E77665-0E9A-4A1D-A679-737F0B82BF45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B91419BA-076B-4B22-B5BB-4A43530566C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B91419BA-076B-4B22-B5BB-4A43530566C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B91419BA-076B-4B22-B5BB-4A43530566C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B91419BA-076B-4B22-B5BB-4A43530566C7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{57E77665-0E9A-4A1D-A679-737F0B82BF45} = {B9863056-4678-4A57-B6C3-07DB8574EEE7}
+		{B91419BA-076B-4B22-B5BB-4A43530566C7} = {CB972F43-7220-4FBF-9655-B6CBF3231921}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C279FDD8-F19E-4FFC-9106-B30E1DABE07A}

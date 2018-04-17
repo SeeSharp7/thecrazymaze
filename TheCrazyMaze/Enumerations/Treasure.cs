@@ -1,7 +1,7 @@
 ﻿namespace TheCrazyMaze.Enumerations
 {
     /// <summary>
-    /// 
+    /// Represents a treasure
     /// </summary>
     public enum Treasure
     {

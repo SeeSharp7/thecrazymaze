@@ -1,14 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 
 namespace TheCrazyMaze
 {
-    public interface IGame
+    public interface IGame : IWayfinder
     {
         IPlayer[] Players { get; set; }
         IMap Map { get; set; }
+        ICollection<IMove> Moves { get; }
+
+        void MakeMove(IPlayer player, IMove move);
     }
 }

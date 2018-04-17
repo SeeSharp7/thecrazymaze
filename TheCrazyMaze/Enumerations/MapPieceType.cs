@@ -1,5 +1,8 @@
 ﻿namespace TheCrazyMaze.Enumerations
 {
+    /// <summary>
+    /// The type of the piece on the map
+    /// </summary>
     public enum MapPieceType
     {
         /// <summary>
@@ -7,7 +10,7 @@
         /// </summary>
         Straight,
         /// <summary>
-        /// The T Crossing piece
+        /// The T-Crossing piece
         /// </summary>
         Crossing,
         /// <summary>

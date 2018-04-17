@@ -43,11 +43,14 @@
     <Compile Include="Enumerations\Orientation.cs" />
     <Compile Include="Enumerations\PlayerColor.cs" />
     <Compile Include="Enumerations\Treasure.cs" />
+    <Compile Include="Game.cs" />
     <Compile Include="IGame.cs" />
     <Compile Include="IMap.cs" />
     <Compile Include="IMapPiece.cs" />
+    <Compile Include="IMove.cs" />
     <Compile Include="IPlayer.cs" />
     <Compile Include="Enumerations\MapPieceType.cs" />
+    <Compile Include="IWayfinder.cs" />
     <Compile Include="MapPieces\PlayerBase.cs" />
     <Compile Include="Position.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
