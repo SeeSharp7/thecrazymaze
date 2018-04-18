@@ -1,9 +1,9 @@
 using TheCrazyMaze.Enumerations;
 
-namespace TheCrazyMaze
+namespace TheCrazyMaze.Interfaces
 {
     /// <summary>
-    /// 
+    /// Indicates a players move in a game
     /// </summary>
     public interface IMove
     {

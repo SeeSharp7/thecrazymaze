@@ -3,9 +3,9 @@
     /// <summary>
     /// Orientation of the <see cref="MapPieceType"/>
     /// </summary>
-    public enum Orientation
+    public enum Rotation
     {
-        NotTurned,
+        NoRotation,
         Rotate90Degrees,
         Rotate180Degrees,
         Rotate270Degrees

@@ -1,12 +1,27 @@
 ﻿using TheCrazyMaze.Enumerations;
 
-namespace TheCrazyMaze
+namespace TheCrazyMaze.Interfaces
 {
     /// <summary>
     /// The current player
     /// </summary>
     public interface IPlayer
     {
+        /// <summary>
+        /// Indicates if this player is human or a bot
+        /// </summary>
+        bool IsBot { get; }
+        
+        /// <summary>
+        /// The name of the player
+        /// </summary>
+        string Name { get; }
+
+        /// <summary>
+        /// The age of the player (Youngest player begins)
+        /// </summary>
+        int Age { get; }
+
         /// <summary>
         /// The <see cref="PlayerColor"/> of this <see cref="IPlayer"/>
         /// </summary>

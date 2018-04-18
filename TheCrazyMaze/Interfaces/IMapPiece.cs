@@ -1,11 +1,11 @@
 ﻿using TheCrazyMaze.Enumerations;
 
-namespace TheCrazyMaze
+namespace TheCrazyMaze.Interfaces
 {
     public interface IMapPiece
     {
         MapPieceType MapPieceType { get; }
 
-        Orientation Orientation { get; }
+        Rotation Orientation { get; }
     }
 }

@@ -1,6 +1,4 @@
-﻿using TheCrazyMaze.Enumerations;
-
-namespace TheCrazyMaze
+﻿namespace TheCrazyMaze.Interfaces
 {
     public interface IWayfinder
     {

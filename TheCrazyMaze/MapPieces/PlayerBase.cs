@@ -1,4 +1,5 @@
 ﻿using TheCrazyMaze.Enumerations;
+using TheCrazyMaze.Interfaces;
 
 namespace TheCrazyMaze.MapPieces
 {
@@ -12,9 +13,9 @@ namespace TheCrazyMaze.MapPieces
             get { return MapPieceType.Curve; }
         }
 
-        public Orientation Orientation
+        public Rotation Orientation
         {
-            get { return Orientation.NotTurned; }
+            get { return Rotation.NoRotation; }
         }
     }
 }

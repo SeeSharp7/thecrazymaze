@@ -5,11 +5,19 @@ using System.Text;
 using System.Threading.Tasks;
 using TheCrazyMaze.Interfaces;
 
-namespace TheCrazyMaze
+namespace TheCrazyMaze.RenesImplementation
 {
-    public abstract class Game : IGame
+    public class Game : IGame
     {
-        //Schieben nur in geraden reihen (%2)!!!
+        public IPlayer[] Players { get; set; }
+        public Map Map { get; set; }
+        public ICollection<IMove> Moves { get; }
+
+        public Game()
+        {
+            
+        }
+
         public bool DirectWayToTreasure()
         {
             throw new NotImplementedException();
@@ -20,9 +28,6 @@ namespace TheCrazyMaze
             throw new NotImplementedException();
         }
 
-        public IPlayer[] Players { get; set; }
-        public Map Map { get; set; }
-        public ICollection<IMove> Moves { get; }
         public void MakeMove(IPlayer player, IMove move)
         {
             throw new NotImplementedException();
