@@ -14,3 +14,5 @@ namespace TheCrazyMaze
         //TODO: Position of the move (to prevent next move in the other direction)
     }
 }
+
+
